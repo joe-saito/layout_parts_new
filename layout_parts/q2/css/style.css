@@ -9,19 +9,19 @@
 .q2_content_box {
   box-sizing: border-box;
   padding: 20px;
-  margin: auto;
+  margin: 0 auto;
   width: 940px;
   background-color: #eff3f4;
 }
-.q2_content_top img {
+.q2_content_left img {
   float: left;
   margin: 0 20px 10px 0;
 }
-.q2_content_bottom img {
+.q2_content_right img {
   float: right;
   margin: 0 0 10px 20px;
 }
-p {
+.sentence {
   word-break: break-all;
   font-size: 18px;
   line-height: 22px;

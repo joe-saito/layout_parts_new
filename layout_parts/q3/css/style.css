@@ -1,37 +1,34 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-table {
+.q3_table {
   width: 100%;
   table-layout: fixed;
   text-align: center;
   border-collapse: collapse;
 }
-table th,table td {
+.q3_table th,td {
   border: solid #dedede 1px;
   padding: 10px;
 }
-table th {
+.q3_table th {
   background-color: #2244aa;
-  color: white;
+  color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
-table td {
+.q3_table td {
   font-size: 16px;
   line-height: 22px;
 }
-table td:first-child {
+table tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+.q3_table td:first-child {
   background-color: #2244aa;
-  color: white;
+  color: #fff;
   font-size: 18px;
   line-height: 26px;
-}
-table tr:nth-child(3) {
-  background-color: #ecf1f2;
-}
-table tr:nth-child(5) {
-  background-color: #ecf1f2;
 }
 table tr:last-child {
   border-top: dashed #000 2px;
