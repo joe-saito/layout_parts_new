@@ -49,11 +49,21 @@
 .q7--flex .q7__inner {
   display: flex;
   align-items: flex-end;
-  margin: auto;
 }
 .q7--flex .q7__box {
   box-sizing: border-box;
   font-size: 16px;
+  margin: 0 auto;
+}
+.is-full {
+  font-size: 0px;
+}
+.q7__inner .is-inline {
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
 }
 
 /* 回答はここに書いてね */
