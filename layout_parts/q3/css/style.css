@@ -7,11 +7,13 @@
   text-align: center;
   border-collapse: collapse;
 }
-.q3_table th,td {
+.q3_table th,
+.q3_table td {
   border: solid #dedede 1px;
   padding: 10px;
 }
-.q3_table thead th{
+.q3_table thead th,
+.q3_table tbody th {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
@@ -23,12 +25,6 @@
 }
 .q3_table tbody tr:nth-child(even) {
   background-color: #ecf1f2;
-}
-.q3_table tbody td:first-child {
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px;
 }
 .q3_table tbody tr:last-child {
   border-top: dashed #000 2px;

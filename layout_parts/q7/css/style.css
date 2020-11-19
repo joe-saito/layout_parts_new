@@ -58,12 +58,20 @@
 .is-full {
   font-size: 0px;
 }
-.q7__inner .is-inline {
+.is-inline .q7__box__text {
   display: inline-block;
   width: 300px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
+  margin-right: 50px;
 }
-
+.is-veriable .q7__box__text {
+  display: inline-block;
+  width: 300px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin: auto 0px;
+}
 /* 回答はここに書いてね */
