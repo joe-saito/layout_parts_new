@@ -8,16 +8,14 @@
 }
 .q7__box {
   width: 225px;
+  font-size: 16px;
 }
 .flort_box {
   float: left;
   margin-left: 50px;
-  font-size: 16px;
   box-sizing: border-box;
 }
-.flort_box:first-child {
-  margin-left: 0px;
-}
+
 .table_box {
   display: table;
 }
@@ -29,33 +27,30 @@
 .table-cel_box:first-child {
   padding-left: 0px;
 }
-.q7--table .q7__box__text {
-  font-size: 16px;
-}
+
 .inlineblock_inner {
   font-size: 0px;
 }
 .inlineblock_box {
   display: inline-block;
   margin-left: 50px;
-  font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
-  font-size: 16px;
 }
-.inlineblock_box:first-child {
+.inlineblock_box:first-child,
+.flort_box:first-child {
   margin-left: 0px;
 }
 
 .flex_inner {
   display: flex;
   align-items: flex-end;
+  justify-content: space-around;
 }
 .flex_box {
   box-sizing: border-box;
-  font-size: 16px;
-  margin: 0 auto;
 }
+
 .is-full {
   font-size: 0;
 }
@@ -72,9 +67,5 @@
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
-}
-.inline_text,
-.variable_text {
-  font-size: 16px;
 }
 /* 回答はここに書いてね */
